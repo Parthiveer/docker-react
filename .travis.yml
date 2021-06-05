@@ -8,4 +8,6 @@ Before-install :
 
 script:
 
-- docker run parthiveer/docker-react npm run test -- -- coverage 
+- docker run -e CI=true parthiveer/docker-react npm run test
+
+language : generic
