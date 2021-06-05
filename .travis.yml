@@ -1,0 +1,11 @@
+sudo : required 
+
+Services:
+- Docker 
+
+Before-install :
+- docker build -t parthiveer/docker-react -f Dockerfile.dev .
+
+script:
+
+- docker run parthiveer/docker-react npm run test -- -- coverage 
