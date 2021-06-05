@@ -18,7 +18,7 @@ function App() {
           Learn React
         </a>
         <p className= "App-Intro">
-        I was chnaged      
+        I was chnaged on the fetaure branch    
        </p>
       </header>
     </div>
